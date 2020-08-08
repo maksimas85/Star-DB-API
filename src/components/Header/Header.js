@@ -13,13 +13,13 @@ const Header = () => {
             <div className='collapse navbar-collapse' id='navbarColor02' wfd-id='451'>
                 <ul className='nav nav-tabs' wfd-id='273'>
                     <li className='nav-item' wfd-id='278'>
-                        <a className='nav-link active' data-toggle='tab' href='#home'>People</a>
+                        <a className='nav-link active' data-toggle='tab' href='#people'>People</a>
                     </li>
                     <li className='nav-item' wfd-id='277'>
-                        <a className='nav-link' data-toggle='tab' href='#profile'>Planets</a>
+                        <a className='nav-link' data-toggle='tab' href='#planets'>Planets</a>
                     </li>
                     <li className='nav-item' wfd-id='276'>
-                        <a className='nav-link' href='#'>Starships</a>
+                        <a className='nav-link' href='#starships'>Starships</a>
                     </li>
                 </ul>
             </div>
