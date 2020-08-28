@@ -13,12 +13,6 @@ export default class RandomPlanet extends Component {
         loading: true
     }
 
-    //Конструктор нужен, если нужно что-то сделать один раз, при первом вызове компонента
-    //отправляем запрос к серверу каждый раз когда создается компонент
-    // constructor() {
-    //     super()
-    // }
-
     componentDidMount() {
         this.updatePlanet()
         this.interval = setInterval(this.updatePlanet, 3000)
@@ -77,7 +71,7 @@ const PlanetView = ({ planet }) => {
 
     return(
         <React.Fragment>
-            <img className='planet-image'
+            <img alt='#' className='planet-image'
                  src={`https://starwars-visualguide.com/assets/img/planets/${id}.jpg`} />
             <div>
                 <h4>{name}</h4>
